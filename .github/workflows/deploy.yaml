@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r my-flask-app/requirements.txt
+          pip install -r mysecond/requirements.txt
 
       - name: Build Docker image
         run: docker build -t my-flask-app my-flask-app
